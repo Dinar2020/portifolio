@@ -44,7 +44,7 @@ Neste projeto apliquei os seguintes pontos:
 <table>
   <tr>
     <td>
-      <img src="https://github.com/assets/images/dinario-serio-fundo-cinza.jpg" width="100px" />
+      <img src="https://github.com/dinario-serio-fundo-cinza.png" width="100px" />
     </td>
     <td>
       Feito por <a href="https://github.com/Dinar2020">Dinário Rebouças.</a> 🙋🏿‍♂️

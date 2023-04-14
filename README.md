@@ -44,10 +44,10 @@ Neste projeto apliquei os seguintes pontos:
 <table>
   <tr>
     <td>
-      <img src="https://github.com/lucyanovidio.png" width="100px" />
+      <img src="https://github.com/images/dinario-serio-fundo-cinza.png" width="100px" />
     </td>
     <td>
-      Feito por <a href="https://github.com/Dinar2020">Lucyan Ovídio.</a> 🙋🏿‍♂️
+      Feito por <a href="https://github.com/Dinar2020">Dinário Rebouças.</a> 🙋🏿‍♂️
     </td>
   </tr>
 </table>

@@ -42,10 +42,8 @@ Neste projeto apliquei os seguintes pontos:
 ---
 
 <table>
+  ![Imagem avatar](assets/images/dinario-serio-fundo-cinza.jpg)
   <tr>
-    <td>
-      ![alt text](assets/images/projects/dinario-serio-fundo-cinza.jpg)
-    </td>
     <td>
       Feito por <a href="https://github.com/Dinar2020">Dinário Rebouças.</a> 🙋🏿‍♂️
     </td>

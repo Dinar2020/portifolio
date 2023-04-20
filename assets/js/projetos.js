@@ -2,7 +2,8 @@ function projetos(section) {
     section.innerHTML = `<header>
       <h2>Projetos</h2>
     </header>
-    <div class="content">
+    
+    <div class="content" id="contentProject">
       <div class="cards">
       <div class="card">
           <h3>Flappy Bird</h3>
@@ -26,7 +27,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://dinario-flappybird.netlify.app/" id="desafio" title="Ver Projetos">
+              <a href="https://dinario-flappybird.netlify.app/" target="_blank" id="desafio" title="Ver Projetos">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -68,7 +69,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="#projects" id="desafio" title="Ver Projetos">
+              <a href="" id="desafio" target="_blank" title="Ver Projetos">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -111,7 +112,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="#projects" id="desafio" title="Ver Projetos">
+              <a href="" id="desafio" target="_blank" title="Ver Projetos">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -137,7 +138,7 @@ function projetos(section) {
           <div class="img-wrapper">
             <img src="./assets/images/projects/links_exemplo.gif" alt="Imagem do projeto." />
             <div class="buttons">
-              <a href="" target="_blank" title="Repositório no Github">
+              <a href="#" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -151,7 +152,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="#projects" target="_blank" title="Ver Projeto">
+              <a href="" id="desafio" target="_blank" title="Ver Projetos">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -175,7 +176,7 @@ function projetos(section) {
           <div class="img-wrapper">
             <img src="./assets/images/projects/portifolio.gif" alt="Imagem do projeto." />
             <div class="buttons">
-              <a href="" target="_blank" title="Repositório no Github">
+              <a href="#" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -189,7 +190,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="" target="_blank" title="Ver Projeto">
+              <a href="" id="desafio" target="_blank" onclick="clearTimeout()" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -229,7 +230,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="#projects" target="_blank" title="Ver Projeto">
+              <a href="" id="desafio" target="_blank" title="Ver Projetos">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -285,5 +286,8 @@ function projetos(section) {
       </div>
     </div>`;
 }
+
+// const childElement = $(".wrapper").eq(4).find(".img").children();
+// console.log(childElement); 
 
 export { projetos };

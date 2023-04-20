@@ -723,23 +723,6 @@ body.light-mode #home img#notebook-2-white {
 
 /*=-=-=-=-=-=-=-=-=-=-NOTIFICATION-=-=-=-=-=-=-=-=-*/
 
-.btn_notification {
-    display: block;
-    margin: 0 auto;
-    margin-top: 34px;
-    padding: 18px;
-    border: 0;
-    border-radius: 33px;
-    background-color: #26916d;
-    color: #fff;
-    font-size: 22px;
-    text-transform: uppercase;
-}
-
-.btn_notification:hover {
-    background-color: #2a9f76;
-    cursor: pointer;
-}
 .notification {
     width: 350px;
     height: 90px;

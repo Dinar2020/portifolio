@@ -128,7 +128,7 @@ function projetos(section) {
             </div>
           </div>
           <p>
-            App para gerenciamento de tarefas feito em react js - front-end .
+            App para gerenciamento de tarefas feito em Reactjs no front-end  e Nodejs no back-end.
           </p>
          
           <p>React JS - Node JS</p>
@@ -288,6 +288,6 @@ function projetos(section) {
 }
 
 // const childElement = $(".wrapper").eq(4).find(".img").children();
-// console.log(childElement); 
+// console.log(childElement);
 
 export { projetos };

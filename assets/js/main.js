@@ -81,9 +81,9 @@ function showBackToTopButtonOnScroll() {
         backToTopButton.classList.remove("show");
     }
 }
+
 // notification banner
 
-// 1 opção
 const notification = document.querySelector(".notification");
 const countdownBar = document.querySelector(".countdownBar");
 const close = document.querySelector(".closenotification");
@@ -97,7 +97,6 @@ window.addEventListener("load", () => {
     desafioBtns.forEach(function (desafioBtn) {
         const href = desafioBtn.getAttribute("href");
         desafioBtn.addEventListener("click", function (e) {
-            
             if (href === "") {
                 console.log(desafioBtn);
                 e.preventDefault();
@@ -135,66 +134,6 @@ window.addEventListener("load", () => {
         });
     });
 });
-
-
-// ////////////
-// const notification = document.querySelector(".notification"),
-//     close = document.querySelector(".closenotification"),
-//     close_effect = ".7s cubic-bezier(0.75,-.2,0.0205,1.1)";
-
-// window.addEventListener("load", () => {
-//     projetos(projectsSection);
-//     const buttonsDivs = document.querySelectorAll(".buttons");
-//     buttonsDivs.forEach(function (buttonsDiv) {
-//         const childLinks = buttonsDiv.querySelectorAll("a");
-//         const secondChildLink = childLinks[1];
-//         const href = secondChildLink.getAttribute("href");
-//         buttonsDivs.forEach((btn) => {
-//             if (href.length <= 0) {
-//                 console.log(href);
-//                 console.log(btn);
-//             }
-//         });
-//     });
-// });
-
-// desafioBtns.forEach(function (desafioBtn) {
-//     desafioBtn.addEventListener("click", function () {
-//         if (href.length < 0) {
-//             notification.style.visibility = "visible";
-//         }
-//     });
-// });
-
-// const href = btn.getAttribute("href");
-// console.log(href);
-
-// secondChildLink.addEventListener("click", () => {
-//     console.log(secondChildLink);
-//     if (href.length < 0 ){
-
-//         notification.style.visibility = "hidden";
-//         // setTimeout(() => {
-//         //     notification.style.right = "8px";
-//         // }, 1500);
-
-//         // setTimeout(() => {
-//         //     notification.style.right = "-900px";
-//         //     notification.style.transaction = close_effect;
-//         // }, 6000);
-
-//         // close.addEventListener("click", () => {
-//         //     notification.style.right = "-900px";
-//         //     notification.style.transition = close_effect;
-//         // });
-
-//     }
-
-// });
-
-// function showNoticationBannerOnScroll(){
-//     if(scrollY)
-// }
 
 // notification banner
 

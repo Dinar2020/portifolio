@@ -176,7 +176,7 @@ function projetos(section) {
           <div class="img-wrapper">
             <img src="./assets/images/projects/portifolio.gif" alt="Imagem do projeto." />
             <div class="buttons">
-              <a href="#" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/Dinar2020/portifolio" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"

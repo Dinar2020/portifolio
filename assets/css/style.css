@@ -247,7 +247,7 @@ body.light-mode
 /*===== NAVIGATION ===================================*/
 
 nav {
-    width: 100vw;
+    width: 100%;
     height: var(--nav-height);
 
     display: flex;
@@ -255,6 +255,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 100;
+    border-radius: 0px 0px 30px 30px;
 }
 
 nav .wrapper {
@@ -813,7 +814,7 @@ body.light-mode #home img#notebook-2-white {
     position: absolute;
     top: 13px;
     width: 15px;
-    height: 1.6px;
+    /* height: 1.6px; */
     background-color: #555;
 }
 
@@ -1406,7 +1407,6 @@ footer .social-links li:nth-child(2) svg path:nth-child(2) {
     #about .wrapper {
         grid-template-columns: 48rem 1fr;
         grid-template-areas: "B A";
-
         gap: 6.7rem;
     }
 
